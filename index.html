@@ -4,34 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu perfil</title>
+    <link rel="stylesheet" href="./style.css">
+    
 </head>
 <body>
 
-    <ul>
+    <ul id="menu">
         <li><a href="index.html">Home</a></li>
         <li><a href="contato.html">Contato</a></li>
     </ul>
 
     <h1>Sobre Adriana</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-        Repellat, ipsa iusto voluptate id maiores nemo enim neque itaque! 
-        Fugiat impedit eaque rem porro iste nulla illo! Iste, ea! Pariatur, quia?</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-        Sint tempore enim nihil consectetur nisi rem, maxime magnam delectus officiis veritatis 
-        hic labore necessitatibus fugit provident voluptatem dolores velit vero iste.</p>
+
+    <div class="container">
+        <div class="p-30">
+        <p class="justifica">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Repellat, ipsa iusto voluptate id maiores nemo enim neque itaque! 
+            Fugiat impedit eaque rem porro iste nulla illo! Iste, ea! Pariatur, quia?</p>
+        <p class="justifica">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+            Sint tempore enim nihil consectetur nisi rem, maxime magnam delectus officiis veritatis 
+            hic labore necessitatibus fugit provident voluptatem dolores velit vero iste.</p>
+        </div>
     
-    <img src="./img/eu_e_elanor.jpg" alt="Eu e a minha gata Elanor">
+        <div>
+            <img class="br-50 p-30" src="./img/eu_e_elanor.jpg" alt="Eu e a minha gata Elanor">
+        </div>
+    </div>
 
-    <h2>Uma das minhas bandas favoritas</h2>
+    <h2 class="center">Uma das minhas bandas favoritas</h2>
 
-    <iframe 
-    width="560" 
-    height="315" 
-    src="https://www.youtube.com/embed/Z875CLxj12E?si=8ptl_gXTrih2sbzp" 
-    title="The Dropkick Murphys - Heroes From Our Past" 
-    frameborder="5" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-    allowfullscreen></iframe>
+    <div class="container">
+        <iframe 
+        width="560" 
+        height="315" 
+        src="https://www.youtube.com/embed/Z875CLxj12E?si=8ptl_gXTrih2sbzp" 
+        title="The Dropkick Murphys - Heroes From Our Past" 
+        frameborder="5" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        allowfullscreen></iframe>
+    </div>
+
+    <hr>
+    <footer>
+        <div class="container">
+            <a href="https://www.linkedin.com/in/adrianagioielli/" target="_blank">
+                <img class="tm-social p-30" src="./img/linkedin.svg"
+                alt="Minha página do LinkeIn">
+            </a>
+            <a href="https://github.com/adrianagioielli" target="_blank">
+                <img class="tm-social p-30" src="./img/github.svg"
+                alt="Minha página do GitHub">
+            </a>
+        </div>
+        <p class="center">
+            &copy Adriana Gioielli
+        </p>
+    </footer>
     
 </body>
 </html>
